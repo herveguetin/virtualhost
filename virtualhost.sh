@@ -33,4 +33,4 @@ a2ensite $sn
 # Reload Apache2
 /etc/init.d/apache2 restart
  
-echo "Your new site is available at http://$sn.local.com"
+echo "Your new site is available at http://$sn.local.com. Please make sure to create /var/www/$sn/ dir if it does not exist yet. "
